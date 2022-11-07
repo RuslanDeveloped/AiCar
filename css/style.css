@@ -1015,8 +1015,9 @@ padding:0 50px;
   }
 
   .partner1 img,.partner2 img {
-    width: 25%;
-    margin-bottom: 5px;
+    width: 55%;
+    margin-bottom: 100px;
+    box-shadow: 0px 15px 25px black;
   }
 
   .partner2,.partner1 {
@@ -1033,6 +1034,7 @@ padding:0 50px;
 
   .border2 {
     position: absolute;
+    width: 500px;
     right: 0;
     z-index: 1;
   }
