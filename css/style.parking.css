@@ -182,7 +182,7 @@ body {
   padding: 123px 0 84px 0;
   display: flex;
   justify-content: space-evenly;
-  align-items: baseline;
+  align-items: center;
 }
 
 .arenda__car {
@@ -282,7 +282,7 @@ body {
 
 .border2 {
   position: absolute;
-  right: 268px;
+  right: 76px;
   z-index: 1;
 }
 
@@ -319,7 +319,21 @@ body {
   padding: 65px;
   background-color: #2F2F2F;
 }
+.form {
+  margin: 0 320px;
+  margin-bottom: 49px;
+  padding: 30px;
+  border-radius: 20px;
+  background-color: #2F2F2F;
+}
 
+.form h3 {
+  text-align: center;
+  font-size: 25px;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 300;
+}
 
 
 .input {
@@ -340,7 +354,7 @@ input {
   font-family: 'Raleway', sans-serif;
   font-size: 25px;
   line-height: 32px;
-  font-weight: 500;
+  font-weight: 300;
   color: #061e37;
   border: none;
   padding: 10px 20px;;
@@ -352,7 +366,11 @@ input {
   background-color: #fafafa;
   font-family: 'Raleway', sans-serif;
   font-size: 25px;
+  font-weight: 300;
   line-height: normal;
+  resize: none;
+  height: 150px;
+  padding: 19px 244px 15px 20px;
 }
 
 .contact__btn {
@@ -361,7 +379,6 @@ input {
 }
 
 .contact__btn div {
-  margin-left: 310px;
   margin-right: auto;
 }
 
@@ -377,6 +394,19 @@ input {
   color: #fff;
   text-transform: uppercase;
 }
+
+.buttonchik {
+  font-size: 20px;
+  text-transform: uppercase;
+
+  padding: 18px 88px 10px 88px;
+  background-color: #D9D9D9;
+  border-radius: 8px;
+  border: none;
+  margin-top: 28px;
+  margin-bottom: 30px;
+}
+
 /*===============================================================================*/
 .podval {
   background: #2F2F2F;
@@ -941,7 +971,7 @@ padding:0 50px;
     align-items: center;
     margin: 50px 0 0 100px;
   }
-  
+
   .service__inner {
     width: 50%;
     margin-bottom: 27px;
@@ -1114,10 +1144,14 @@ padding:0 50px;
   }
 
   .ourcar {
-    padding: 10px 0 50px 0;
+    padding: 10px 0 50px 50px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+  }
+
+  .arenda__car {
+    margin-bottom: 10px;
   }
 
   .car__content {
@@ -1143,20 +1177,22 @@ padding:0 50px;
     width: 50%;
   }
 
+  .service {
+    margin: 0;
+  }
+
   .service__inner img {
-    width: 50%;
+    width: 100%;
   }
 
   .button {
      padding: 14px 28px;
    }
 
-   .partner1 img {
-     width: 10%;
-   }
-
-   .partner2 img {
-     width: 10%;
+   .partner1 img,.partner2 img {
+     width: 50%;
+     margin-bottom: 50px;
+     box-shadow: 0 10px 20px #646464;
    }
 
   .service__text {
@@ -1175,6 +1211,7 @@ padding:0 50px;
 
   .input input {
     padding: 17px 0;
+    width: 49%;
   }
 
   .send {
@@ -1194,6 +1231,18 @@ padding:0 50px;
     font-size: 13px;
   }
 
+  .form {
+    margin: 0;
+    margin-bottom: 25px;
+  }
+
+  .textarea {
+    height: 100px;
+    width: 100%;
+    font-size: 25x;
+    padding: 10px 0 0 5px;
+}
+
   .footer__flex {
     display: flex;
     justify-content: space-between;
@@ -1201,11 +1250,18 @@ padding:0 50px;
 }
 
   .podval__contact {
-    padding: 17px 215px 20px;
+    padding: 24px 100px 20px;
   }
+
+  .podval__contact input {
+    width: 300px;
+    height: 60px;
+    margin: 15px 0 18px 0;
+}
 
   .adress {
     margin-top: 25px;
+    margin-left: 50px;
   }
 
   .contacts {
@@ -1214,4 +1270,83 @@ padding:0 50px;
     padding: 0 50px;
 }
 
+  .butn__foot {
+    padding: 15px 15px;
+    color: #fff;
+    cursor: pointer;
+    border: 1px solid #2D2D2D;
+    border-radius: 8px;
+    width: 300px;
+    font-size: 15px;
+    font-weight: 300;
+    text-transform: uppercase;
+    background-color: #2D2D2D;
+  }
+
+}
+
+@media (max-width:380px) {
+  .container {
+    width: 100%;
+  }
+
+  .number {
+    display: none;
+  }
+
+  .group {
+    width: 100%;
+    background: url(GROUPS/adap.png) center no-repeat;
+    background-size: cover;
+  }
+
+  .intro__text {
+    padding-left: 20px;
+  }
+
+  .uptext {
+    font-size: 25px;
+  }
+
+  .downtext {
+    font-size: 18px;
+  }
+
+  .ourcar {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+
+  .arenda {
+    padding: 14px 50px;
+  }
+
+  .arenda__inner {
+    font-size: 15px;
+  }
+
+  .arenda__car {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .arenda__car:first-child {
+    margin-bottom: 20px;
+}
+
+  .button {
+    padding: 14px 4px;
+    font-size: 15px;
+  }
+
+  .podval__contact {
+    padding: 24px 40px 20px;
+  }
+
+  .textarea {
+    padding: 10px 0 0;
+  }
 }

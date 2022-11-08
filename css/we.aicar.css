@@ -80,11 +80,11 @@ body {
 
 /*============================================================================GROUP*/
 
-.GROUP {
+.group {
   width: 100%;
   height: 900px;
 
-  background: url("GROUPS/GROUP.png") center no-repeat;
+  background: url("GROUPS/parking/ourcar.png") center no-repeat;
   -webkit-background-size: cover;
   background-size: cover;
 }
@@ -149,301 +149,77 @@ body {
 
 /*=============================================================================GROUP__2*/
 
-.GROUP__2 {
+
+/*=====================================================================================*/
+.group__3 {
   background: #fff;
-
-}
-
-.head__text {
-
-  padding: 110px 0 15px 0;
-
-  color: #2F2F2F;
-  font-size: 25px;
-  font-weight: 300;
-}
-
-.border {
-  width: 75%;
-  border-bottom: 2px solid #212121;
-}
-
-.ourcar {
-  padding: 123px 0 84px 0;
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-}
-
-.arenda__car {
-  margin-left:40px;
-}
-
-.arenda__car:first-child {
-  margin: 0;
-}
-
-.arenda__inner {
-  font-size: 15px;
-  font-weight: 300;
-
-  margin: 18px 0 11px 0;
-}
-
-.price {
-  font-size: 15px;
-  font-weight: 500;
-
-  margin-bottom: 24px;
-}
-
-.button {
-  padding: 14px 57px;
-
-  border-radius: 8px;
-
-  background-color: #2F2F2F;
-  color: #fff;
-
-  text-transform: uppercase;
-  text-decoration: none;
-  font-size: 12px;
-}
-
-/*==============================================================================GROUP__3*/
-.GROUP__3 {
-  background: url("GROUPS/GROUP3.png") center no-repeat;
   width: 100%;
-  height: 420px;
+  height: 1043px;
 }
 
 .content {
   display: flex;
   justify-content: space-between;
-}
+  margin-top: 82px;
 
-.content__inner {
-  display: flex;
-  align-items: center;
-}
-
-.text__content  {
-  margin-left: 48px;
-
-  font-size: 35px;
-  font-weight: 900;
-
-  color: #fff;
-
-  text-transform: uppercase;
 
 }
 
-.text__content p:first-child {
-  margin: 0;
+.ofice {
+
 }
 
-.car__content {
-  margin-left: 65px;
+.ofice__text {
+  font-size: 25px;
+  font-weight: 300;
+  margin-bottom: 60px;
 }
+
+.driving {
+
+}
+
+.driving__text {
+  font-size: 25px;
+  font-weight: 300;
+  margin-top: 151px;
+  margin-bottom: 255px;
+}
+
+.description p {
+  margin-top: 17px;
+  font-size: 25px;
+  font-weight: 300;
+}
+
+.description_2 p {
+  margin-top: 17px;
+  font-size: 25px;
+  font-weight: 300;
+  margin-left: 276px;
+  display: block;
+}
+
+.photo1:hover {
+  border-left: 50px solid #841FFF;
+  transition: .2s linear;
+}
+
+.photo1:before {
+  border-left: 50px solid #841FFF;
+  border-left-width: 50%;
+}
+
+
+.photo2:hover {
+  border-right: 50px solid #841FFF;
+  transition: .2s linear;
+}
+
 /*==============================================================================GROUP__3*/
 
-.GRPOUP__4 {
-  position: relative;
-}
 
-.GRPOUP__111:before  {
-  background: url("GROUPS/bg 3.png") center no-repeat;
-  position: absolute;
-  top: 0;
-  content:"";
-  width: 1478px;
-  right: 0;
-  height: 680px;
-  z-index: -9;
-  box-shadow:
-}
-
-
-
-.service {
-  margin-top: 47px;
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-}
-
-.service__inner {
-  margin-right: 55px;
-}
-
-.service__inner:last-child {
-  margin-right: 0;
-}
-
-.service__text {
-  font-size: 20px;
-  font-weight: 300;
-
-  color: #2F2F2F;
-
-  padding-top: 15px;
-  padding-bottom: 48px;
-}
-
-.service__text.rec{
-  font-size: 20px;
-  font-weight: 300;
-
-  color: #2F2F2F;
-
-  padding-top: 15px;
-  padding-bottom: 24px;
-}
-
-/*=============================================================================GROUP5*/
-
-.GROUP_5 {
-  position: relative;
-  z-index: -9;
-}
-
-.head__text__two {
-  padding: 110px 0 15px 0;
-
-  font-size: 25px;
-  font-weight: 300;
-
-  text-transform: uppercase;
-  text-align: right;
-
-  position: relative;
-}
-
-.border2 {
-  position: absolute;
-  right: 76px;
-  z-index: 1;
-}
-
-.partner {
-  padding: 85px 0;
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-}
-
-.partner1 {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.partner2 {
-  padding: 51px 0;
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-}
-/*============================================================================GROUP__6*/
-.GROUP__6 {
-  background: linear-gradient(97.61deg, #8F4AFD 24.22%, #A05CF9 48.58%, #841FFF 89.48%);
-  padding: 70px 50px;
-
-}
-
-.contact {
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-}
-
-.calling {
-  font-size: 25px;
-  font-weight: 300;
-
-  text-decoration: none;
-  text-transform: uppercase;
-
-  color: #fff;
-
-  margin-right: 55px;
-}
-
-.input input {
-  margin-right: 50px;
-  border-radius: 8px;
-  padding: 17px 34px;
-  border: 1px;
-  font-size: 20px;
-  font-family: 'Inter', sans-serif;
-  }
-
-.send {
-  padding: 17px 86px;
-  border: 1px solid #D9D9D9;
-  border-radius: 8px;
-  background-color: #D9D9D9;
-
-  font-size: 20px;
-  font-weight: 300;
-  font-family: 'Inter', sans-serif;
-
-  cursor: pointer;
-}
-
-.send:after {
-  background-color: #333;
-}
-/*============================================================================GROUP__6*/
-.group__7 {
-  background: url("GROUPS/bg7.png") center no-repeat;
-  background-size: cover;
-}
-
-.text {
-  padding: 111px 130px 1px 127px;
-  border-radius: 20px;
-
-  background-color: #fff;
-  color: #2F2F2F;
-
-  text-align: center;
-}
-
-.text_slide {
-  position: relative;
-  padding: 50px 230px 181px 230px;;
-}
-
-.text p {
-  margin: 50px 0 86px 0;
-  color: #2F2F2F;
-  font-weight: 500;
-}
-
-.slick_slide .slick-arrow.slick-prev {
-  background: url('../js/btn/prev.png') 0 0 no-repeat;
-}
-
-.slick_slide .slick-arrow.slick-next {
-  background: url('../js/btn/next.png') 0 0 no-repeat;
-}
-
-.prev {
-  position: absolute;
-  top: 180px;
-  left: 80px;
-  z-index: 1;
-}
-
-.next {
-  position: absolute;
-  top: 180px;
-  right: 80px;
-  z-index: 1;
-}
-/*===============================================================================*/
+/*====FOOTER========FOOTER=========FOOTER===========FOOTER======FOOTER==========FOOTER=======FOOTER=========FOOTER===============FOOTER*/
 .podval {
   background: #2F2F2F;
   padding: 43px 0;
@@ -654,85 +430,6 @@ padding:0 50px;
   }
 }
 
-@media (max-width:1300px) {
-  .container {
-    width: 100%;
-  }
-
-  .header__logo img {
-    position: absolute;
-    top: -34px;
-    right: 0;
-    z-index: 1;
- }
-
-  .header_menu {
-    padding: 0 50px;
-  }
-
-  .number {
-    font-size: 12px;
-  }
-
-  .nav {
-    font-size: 12px;
-  }
-
-  .ourcar {
-    padding: 10px 25px 50px 25px;
-    display: flex;
-    justify-content: space-around;
-  }
-
-  .arenda__car img {
-    width: 90%
-  }
-
-  .car__content {
-    margin-top: 50px;
-    width: 40%;
-  }
-
-  .arenda__inner {
-    font-size: 9px;
-    font-weight: 300;
-  }
-
-  .content__inner {
-    padding: 80px 0 0;
-  }
-
-  .service__inner img {
-    width: 75%;
-  }
-
-  .service__text {
-    padding-top: 33px;
-  }
-
-  .border2 {
-    position: absolute;
-    right: 0;
-    z-index: 1;
-  }
-
-  .input {
-    display: flex;
-  }
-
-  .input input {
-    padding: 17px 0;
-  }
-
-  .send {
-    padding: 17px 10px;
-  }
-
-  .text {
-    padding: 73px 0 35px 0;
-    font-size: 15px;
-  }
-}
 
 @media (max-width:1230px) {
   .container {
@@ -891,6 +588,88 @@ padding:0 50px;
   }
 }
 
+@media (max-width:1300px) {
+  .container {
+    width: 100%;
+  }
+
+  .header__logo img {
+    position: absolute;
+    top: -34px;
+    right: 0;
+    z-index: 1;
+ }
+
+  .header_menu {
+    padding: 0 50px;
+  }
+
+  .number {
+    font-size: 12px;
+  }
+
+  .nav {
+    font-size: 12px;
+  }
+
+  .ourcar {
+    padding: 10px 25px 50px 25px;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .arenda__car img {
+    width: 90%
+  }
+
+  .car__content {
+    margin-top: 50px;
+    width: 40%;
+  }
+
+  .arenda__inner {
+    font-size: 9px;
+    font-weight: 300;
+  }
+
+  .content__inner {
+    padding: 80px 0 0;
+  }
+
+  .service__inner img {
+    width: 75%;
+  }
+
+  .service__text {
+    padding-top: 33px;
+  }
+
+  .border2 {
+    position: absolute;
+    right: 0;
+    z-index: 1;
+  }
+
+  .input {
+    display: flex;
+  }
+
+  .input input {
+    padding: 17px 0;
+  }
+
+  .send {
+    padding: 17px 10px;
+  }
+
+  .text {
+    padding: 73px 0 35px 0;
+    font-size: 15px;
+  }
+}
+
+
+
 @media (max-width:992px) {
   .container {
     width: 100%;
@@ -898,6 +677,12 @@ padding:0 50px;
 
   .GROUP {
     height: 650px;
+  }
+
+  .group__3 {
+    width: 100%;
+    height: 1610px;
+    background-size: cover;
   }
 
   .intro__text {
@@ -994,8 +779,9 @@ padding:0 50px;
 
   .service {
     display: flex;
-    flex-wrap: wrap;
-    margin: 20px 0 0 100px;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px 0 0 100px;
   }
 
   .service__inner {
@@ -1006,7 +792,8 @@ padding:0 50px;
 
   .service__text,.service__text.rec {
     padding-top: 0;
-    font-size: 30px;
+    font-size: 35px;
+    font-weight: 400;
   }
 
   .partner {
@@ -1015,9 +802,8 @@ padding:0 50px;
   }
 
   .partner1 img,.partner2 img {
-    width: 50%;
-    margin-bottom: 50px;
-    box-shadow: 0 10px 20px #646464;
+    width: 25%;
+    margin-bottom: 5px;
   }
 
   .partner2,.partner1 {
@@ -1142,5 +928,237 @@ padding:0 50px;
   .text {
   padding: 50px 50px 3px 50px;
   font-size: 10px;
+  }
+}
+
+@media (max-width:750px) {
+  .container {
+    width: 100%;
+  }
+
+  .header__logo img {
+    position: absolute;
+    top: -34px;
+    right: 0;
+    z-index: 1;
+ }
+
+  .header_menu {
+    padding: 0 50px;
+  }
+
+  .number {
+    font-size: 12px;
+  }
+
+  .nav {
+    font-size: 12px;
+  }
+
+  .ourcar {
+    padding: 10px 0 50px 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .arenda__car {
+    margin-bottom: 10px;
+  }
+
+  .car__content {
+    margin-top: 50px;
+    width: 40%;
+    margin-left: 0;
+  }
+
+  .arenda__inner {
+    font-size: 9px;
+    font-weight: 300;
+  }
+
+  .text__content {
+    font-size: 25px;
+  }
+
+  .content__inner {
+    padding: 80px 0 0;
+  }
+
+  .content__inner img{
+    width: 50%;
+  }
+
+  .service {
+    margin: 0;
+  }
+
+  .service__inner img {
+    width: 100%;
+  }
+
+  .button {
+     padding: 14px 28px;
+   }
+
+   .partner1 img,.partner2 img {
+     width: 50%;
+     margin-bottom: 50px;
+     box-shadow: 0 10px 20px #646464;
+   }
+
+  .service__text {
+    padding-top: 33px;
+  }
+
+  .border2 {
+    position: absolute;
+    right: 0;
+    z-index: 1;
+  }
+
+  .input {
+    display: flex;
+  }
+
+  .input input {
+    padding: 17px 0;
+    width: 49%;
+  }
+
+  .send {
+    padding: 17px 10px;
+    margin: 10px 0 0;
+  }
+
+  .contact {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: flex-start
+}
+
+  .text {
+    padding: 50px 50px 3px 50px;
+    font-size: 13px;
+  }
+
+  .form {
+    margin: 0;
+    margin-bottom: 25px;
+  }
+
+  .textarea {
+    height: 100px;
+    width: 100%;
+    font-size: 25x;
+    padding: 10px 0 0 5px;
+}
+
+  .footer__flex {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+  .podval__contact {
+    padding: 24px 100px 20px;
+  }
+
+  .podval__contact input {
+    width: 300px;
+    height: 60px;
+    margin: 15px 0 18px 0;
+}
+
+  .adress {
+    margin-top: 25px;
+    margin-left: 50px;
+  }
+
+  .contacts {
+    margin-top: 25px;
+    position: relative;
+    padding: 0 50px;
+}
+
+  .butn__foot {
+    padding: 15px 15px;
+    color: #fff;
+    cursor: pointer;
+    border: 1px solid #2D2D2D;
+    border-radius: 8px;
+    width: 300px;
+    font-size: 15px;
+    font-weight: 300;
+    text-transform: uppercase;
+    background-color: #2D2D2D;
+  }
+
+}
+
+@media (max-width:380px) {
+  .container {
+    width: 100%;
+  }
+
+  .number {
+    display: none;
+  }
+
+  .group {
+    width: 100%;
+    background: url(GROUPS/adap.png) center no-repeat;
+    background-size: cover;
+  }
+
+  .intro__text {
+    padding-left: 20px;
+  }
+
+  .uptext {
+    font-size: 25px;
+  }
+
+  .downtext {
+    font-size: 18px;
+  }
+
+  .ourcar {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+
+  .arenda {
+    padding: 14px 50px;
+  }
+
+  .arenda__inner {
+    font-size: 15px;
+  }
+
+  .arenda__car {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .arenda__car:first-child {
+    margin-bottom: 20px;
+}
+
+  .button {
+    padding: 14px 4px;
+    font-size: 15px;
+  }
+
+  .podval__contact {
+    padding: 24px 40px 20px;
+  }
+
+  .textarea {
+    padding: 10px 0 0;
   }
 }

@@ -2,6 +2,7 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
     <link rel="stylesheet" href="css/style.parking.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -17,12 +18,12 @@
           </div>
           <nav class="nav">
             <a class="nav_link" href="index.html">главная</a>
-            <a class="nav_link" href="#">о нас</a>
+            <a class="nav_link" href="we.html">о нас</a>
             <a class="nav_link" href="#">автопарк</a>
             <a class="nav_link" href="#">условие и договор</a>
             <a class="nav_link" href="#">контакты</a>
           </nav>
-          <a class="number" href="#">8(747)-606-76-69</a>
+          <a class="number" href="#">8708 733 7885</a>
         </div>
       </div>
     </header>
@@ -175,18 +176,20 @@
     <div class="group__5">
         <div class="container">
               <form class="form" action="#" method="post" enctype="multipart/form-data">
+                <h3>Оставьте заявку</h3>
                   <div class="input">
-                    <input type="text" name="First Name" placeholder="Имя" required>
-                    <input type="text" name="Last Name" placeholder="Тип услуги" required>
+                    <input type="text" name="Name" placeholder="Имя" required>
+                    <input type="text" name="Tip" placeholder="Тип услуги" required>
                   </div>
                   <div class="input">
                     <input type="tel" name="Phone" placeholder="Телефон" required>
-                    <input type="data" name="data" placeholder="Дата" required>
+                    <input type="date" name="data" placeholder="Дата" required>
                   </div>
-              <textarea class="textarea" name="msg" rows="10" cols="30" placeholder="Примичание"></textarea>
+
+                    <textarea class="textarea" name="msg" rows="10" cols="30" placeholder="Примичание"></textarea>
+
                   <div class="contact__btn">
-                    <input type="checkbox" name="news">
-                          <div><button class="buttonchik" type="submit">send</button></div>
+                          <div><button class="buttonchik" type="submit">отправить</button></div>
                   </div>
             </form>
         </div>
