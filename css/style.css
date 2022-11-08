@@ -617,6 +617,10 @@ padding:0 50px;
     font-size: 10px;
     font-weight: 300;
   }
+  
+  .border2 {
+    right: 76.5px;
+}
 
   .content__inner {
     padding: 80px 0 0;
