@@ -1349,4 +1349,9 @@ padding:0 50px;
   .textarea {
     padding: 10px 0 0;
   }
+  
+  .input input {
+    padding: 10px 0;
+    width: 47%;
+  }
 }
