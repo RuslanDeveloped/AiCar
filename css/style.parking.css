@@ -282,7 +282,7 @@ body {
 
 .border2 {
   position: absolute;
-  right: 76px;
+  right: 275px;
   z-index: 1;
 }
 
@@ -596,7 +596,7 @@ padding:0 50px;
 
   .border2 {
     position: absolute;
-    right: 0;
+    right: 76px;
     z-index: 1;
   }
 
@@ -677,7 +677,7 @@ padding:0 50px;
 
   .border2 {
     position: absolute;
-    right: 0;
+    right: 76px;
     z-index: 1;
   }
 
