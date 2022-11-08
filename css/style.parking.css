@@ -844,6 +844,7 @@ padding:0 50px;
 
   .input input {
     padding: 17px 0;
+    width: 49%;
   }
 
   .send {
@@ -853,6 +854,10 @@ padding:0 50px;
   .text {
     padding: 73px 0 35px 0;
     font-size: 15px;
+  }
+  
+  .textarea {
+    width: 100%;
   }
 }
 
