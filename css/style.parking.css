@@ -596,7 +596,7 @@ padding:0 50px;
 
   .border2 {
     position: absolute;
-    right: 76px;
+    right: 0;
     z-index: 1;
   }
 
