@@ -1213,11 +1213,12 @@ padding:0 50px;
 
   .input {
     display: flex;
+    flex-direction: column;
   }
 
   .input input {
     padding: 17px 0;
-    width: 49%;
+    width: 100%;
   }
 
   .send {
