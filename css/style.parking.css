@@ -266,10 +266,10 @@ body {
 
 .group__4 {
   background: #fff;
+  padding: 70px 0 0 0;
 }
 
 .head__text__two {
-  padding: 70px 0 15px 0;
 
   font-size: 25px;
   font-weight: 300;
@@ -282,7 +282,8 @@ body {
 
 .border2 {
   position: absolute;
-  right: 275px;
+  top: 45px;
+  right: 0;
   z-index: 1;
 }
 
