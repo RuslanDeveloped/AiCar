@@ -304,12 +304,10 @@ body {
 /*=============================================================================GROUP5*/
 
 .GROUP_5 {
-  position: relative;
-  z-index: -9;
+  padding 110px 0 0 0;
 }
 
 .head__text__two {
-  padding: 110px 0 15px 0;
 
   font-size: 25px;
   font-weight: 300;
@@ -322,7 +320,8 @@ body {
 
 .border2 {
   position: absolute;
-  right: 275px;
+  top: 45px;
+  right: 0;
   z-index: 1;
 }
 
@@ -1133,6 +1132,7 @@ padding:0 50px;
 
   .input {
     display: flex;
+    flex-direction: column;
   }
 
   .input input {
