@@ -303,7 +303,7 @@ body {
 .adress h4 {
   color: #fff;
 
-  margin: 0 0 20px 0;
+  margin: 0 0 10px 0;
 
   font-weight: 700;
   font-size: 20px;
@@ -314,6 +314,7 @@ body {
 
   text-decoration: none;
 
+  line-height: 27px;
   font-weight: 300;
   font-size: 17px;
 }
@@ -360,6 +361,7 @@ padding:0 50px;
   cursor: pointer;
 
   position: absolute;
+  top: 250px;
   left: 13px;
 }
 
@@ -393,6 +395,9 @@ padding:0 50px;
     font-size: 15px;
   }
 
+  .img {
+    top: 150px;
+  }
 
 }
 
@@ -421,6 +426,11 @@ padding:0 50px;
   .nav {
     font-size: 12px;
   }
+
+  .img {
+    top: 150px;
+  }
+
 
 }
 
@@ -482,6 +492,11 @@ padding:0 50px;
   }
 }
 
+.img {
+  top: 150px;
+}
+
+
 
 
 }
@@ -509,6 +524,11 @@ padding:0 50px;
   .nav {
     font-size: 12px;
   }
+
+  .img {
+    top: 150px;
+  }
+
 
 
 }
@@ -576,6 +596,11 @@ padding:0 50px;
     padding: 0;
   }
 
+  .img {
+    top: 150px;
+  }
+
+
 
 }
 
@@ -614,6 +639,11 @@ padding:0 50px;
   .nav_link:first-child {
     padding: 0;
   }
+
+  .img {
+    top: 150px;
+  }
+
 
 
 }
@@ -681,6 +711,11 @@ padding:0 50px;
     text-transform: uppercase;
     background-color: #2D2D2D;
   }
+
+  .img {
+    top: 150px;
+  }
+
 
 }
 
