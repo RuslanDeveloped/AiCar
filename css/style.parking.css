@@ -434,10 +434,13 @@ input {
 }
 
 .podval__contact {
-  display: flex;
-  flex-direction: column;
   padding: 24px 31px 20px;
   background-color: #646464;
+}
+
+.footer__form {
+  display: flex;
+  flex-direction: column;
 }
 
 .podval__contact input {
@@ -489,8 +492,8 @@ input {
 }
 
 .contacts {
-position: relative;
-padding:0 50px;
+  position: relative;
+  padding:0 50px;
 }
 
 .contacts h4{
@@ -607,6 +610,7 @@ padding:0 50px;
 
   .input input {
     padding: 17px 0;
+    width: 49%;
   }
 
   .send {
@@ -616,6 +620,11 @@ padding:0 50px;
   .text {
     padding: 73px 0 35px 0;
     font-size: 15px;
+  }
+
+  .textarea {
+    width: 100%;
+    padding: 19px 0 0 10px;
   }
 }
 
@@ -700,82 +709,6 @@ padding:0 50px;
   }
 }
 
-@media (max-width:1050px) {
-  .container {
-    width: 100%;
-  }
-
-  .header__logo img {
-    position: absolute;
-    top: -34px;
-    right: 0;
-    z-index: 1;
- }
-
-  .header_menu {
-    padding: 0 50px;
-  }
-
-  .number {
-    font-size: 12px;
-  }
-
-  .nav {
-    font-size: 12px;
-  }
-
-  .ourcar {
-    padding: 10px 0 50px 0;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-  }
-
-  .car__content {
-    margin-top: 50px;
-    width: 40%;
-  }
-
-  .arenda__inner {
-    font-size: 9px;
-    font-weight: 300;
-  }
-
-  .content__inner {
-    padding: 80px 0 0;
-  }
-
-  .service__inner img {
-    width: 75%;
-  }
-
-  .service__text {
-    padding-top: 33px;
-  }
-
-  .border2 {
-    position: absolute;
-    right: 0;
-    z-index: 1;
-  }
-
-  .input {
-    display: flex;
-  }
-
-  .input input {
-    padding: 17px 0;
-  }
-
-  .send {
-    padding: 17px 10px;
-  }
-
-  .text {
-  padding: 50px 50px 3px 50px;
-  font-size: 10px;
-  }
-}
 
 @media (max-width:1300px) {
   .container {
@@ -856,12 +789,85 @@ padding:0 50px;
     padding: 73px 0 35px 0;
     font-size: 15px;
   }
-  
+
   .textarea {
     width: 100%;
   }
 }
 
+@media (max-width:1050px) {
+  .container {
+    width: 100%;
+  }
+
+  .header__logo img {
+    position: absolute;
+    top: -34px;
+    right: 0;
+    z-index: 1;
+ }
+
+  .header_menu {
+    padding: 0 50px;
+  }
+
+  .number {
+    font-size: 12px;
+  }
+
+  .nav {
+    font-size: 12px;
+  }
+
+  .car__content {
+    margin-top: 50px;
+    width: 40%;
+  }
+
+  .arenda__inner {
+    font-size: 9px;
+    font-weight: 300;
+  }
+
+  .content__inner {
+    padding: 80px 0 0;
+  }
+
+  .service__inner img {
+    width: 75%;
+  }
+
+  .service__text {
+    padding-top: 33px;
+  }
+
+  .border2 {
+    position: absolute;
+    right: 0;
+    z-index: 1;
+  }
+
+  .input {
+    display: flex;
+  }
+
+  .input input {
+    padding: 17px 0;
+  }
+
+  .send {
+    padding: 17px 10px;
+  }
+
+  .text {
+  padding: 50px 50px 3px 50px;
+  font-size: 10px;
+  }
+
+  .form {
+    margin: 0 100px 50px 100px;
+  }
+}
 
 
 @media (max-width:992px) {
@@ -1254,10 +1260,12 @@ padding:0 50px;
     display: flex;
     justify-content: space-between;
     flex-direction: column;
+    margin: 0 0 0 30px;
 }
 
   .podval__contact {
-    padding: 24px 100px 20px;
+    padding: 15px 35px 20px;
+    width: 50%;
   }
 
   .podval__contact input {
@@ -1290,6 +1298,36 @@ padding:0 50px;
     background-color: #2D2D2D;
   }
 
+}
+
+@media (max-width:740px) {
+  .container {
+    width: 100%;
+  }
+
+  .group {
+    width: 100%;
+    background: url(GROUPS/adap.png) center no-repeat;
+    background-size: cover;
+  }
+
+  .number {
+    display: none;
+  }
+
+  .podval__contact {
+    width: 65%;
+  }
+}
+
+@media (max-width:560px) {
+  .container {
+    width: 100%;
+  }
+
+  .podval__contact {
+    width: 80%;
+  }
 }
 
 @media (max-width:380px) {
@@ -1349,14 +1387,19 @@ padding:0 50px;
     font-size: 15px;
   }
 
+  .footer__flex {
+    margin: 0;
+  }
+
   .podval__contact {
     padding: 24px 40px 20px;
+    width: 100%;
   }
 
   .textarea {
     padding: 10px 0 0;
   }
-  
+
   .input input {
     padding: 10px 0;
     width: 100%;

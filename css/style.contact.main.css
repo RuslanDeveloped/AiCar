@@ -84,7 +84,7 @@ body {
   width: 100%;
   height: 900px;
 
-  background: url("GROUPS/weus.png") center no-repeat;
+  background: url("GROUPS/contact/1.png") center no-repeat;
   -webkit-background-size: cover;
   background-size: cover;
 }
@@ -134,11 +134,13 @@ body {
   font-size: 50px;
   font-weight: 900;
   margin-bottom: 18px;
+  display: none;
 }
 
 .downtext {
   font-size: 30px;
   font-weight: 300;
+  display: none;
 }
 
 .intro__car {
@@ -154,81 +156,20 @@ body {
 .group__3 {
   background: #fff;
   width: 100%;
-  height: 1043px;
+  height: 1091px;
 }
 
-.content {
-  display: flex;
-  justify-content: space-between;
-  margin-top: 82px;
-
-
-}
-
-.ofice {
-
-}
-
-.ofice__text {
+.content h3 {
+  margin: 0;
   font-size: 25px;
-  font-weight: 300;
-  margin-bottom: 60px;
+  font-weight: 700;
+  padding: 80px 0 0 150px;
 }
 
-.driving {
-  position: relative;
+.cars {
+  padding: 500px 0 0 0;
+  width: 100%;
 }
-
-.driving__text {
-  font-size: 25px;
-  font-weight: 300;
-
-  margin-right: 49px;
-  margin-top: 151px;
-  margin-bottom: 255px;
-}
-
-.description p {
-  margin-top: 17px;
-  font-size: 25px;
-  font-weight: 300;
-}
-
-.description_2 p {
-  margin-top: 17px;
-  font-size: 25px;
-  font-weight: 300;
-  margin-left: 276px;
-  display: block;
-
-  position: absolute;
-  top: 855px;
-  right: -1px;
-  z-index: 11;
-}
-
-.photo1:hover {
-  border-left: 50px solid #841FFF;
-  transition: .2s linear;
-}
-
-.photo1:before {
-  border-left: 50px solid #841FFF;
-  border-left-width: 50%;
-}
-
-.photo2 {
-  position: absolute;
-  right: -1px;
-  z-index: 1;
-}
-
-
-.photo2:hover {
-  border-right: 50px solid #841FFF;
-  transition: .2s linear;
-}
-
 /*==============================================================================GROUP__3*/
 
 

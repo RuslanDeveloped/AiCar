@@ -84,7 +84,7 @@ body {
   width: 100%;
   height: 900px;
 
-  background: url("GROUPS/weus.png") center no-repeat;
+  background: url("GROUPS/GROUP.png") center no-repeat;
   -webkit-background-size: cover;
   background-size: cover;
 }
@@ -149,88 +149,65 @@ body {
 
 /*=============================================================================GROUP__2*/
 
+.group__2 {
 
-/*=====================================================================================*/
-.group__3 {
-  background: #fff;
-  width: 100%;
-  height: 1043px;
 }
 
-.content {
+.condition {
+  padding-bottom: 180px;
+}
+
+.condition h4 {
+  font-size: 30px;
+  font-weight: 300;
+  
+}
+
+.condition__inner {
   display: flex;
+  align-items: baseline;
   justify-content: space-between;
-  margin-top: 82px;
-
-
+  padding-top: 100px;
 }
 
-.ofice {
-
-}
-
-.ofice__text {
-  font-size: 25px;
-  font-weight: 300;
-  margin-bottom: 60px;
-}
-
-.driving {
-  position: relative;
-}
-
-.driving__text {
-  font-size: 25px;
-  font-weight: 300;
-
-  margin-right: 49px;
-  margin-top: 151px;
-  margin-bottom: 255px;
-}
-
-.description p {
-  margin-top: 17px;
-  font-size: 25px;
-  font-weight: 300;
-}
-
-.description_2 p {
-  margin-top: 17px;
-  font-size: 25px;
-  font-weight: 300;
-  margin-left: 276px;
-  display: block;
-
+.condition__blog img {
   position: absolute;
-  top: 855px;
-  right: -1px;
+  top: 25%;
+  left: 0;
   z-index: 11;
 }
 
-.photo1:hover {
-  border-left: 50px solid #841FFF;
-  transition: .2s linear;
+.condition__blog {
+  flex: 1 1 0;
+  position: relative;
+  padding-left: 135px;
 }
 
-.photo1:before {
-  border-left: 50px solid #841FFF;
-  border-left-width: 50%;
+.condition__blog h4{
+  font-size: 25px;
+  font-weight: 500;
 }
 
-.photo2 {
-  position: absolute;
-  right: -1px;
-  z-index: 1;
+.condition__blog p {
+  margin: 0;
+  font-size: 25px;
+  font-weight: 300;
 }
 
+/*=========================================================================================================*/
 
-.photo2:hover {
-  border-right: 50px solid #841FFF;
-  transition: .2s linear;
+.dogovor {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-/*==============================================================================GROUP__3*/
-
+.dogovor h4 {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 300;
+}
 
 /*====FOOTER========FOOTER=========FOOTER===========FOOTER======FOOTER==========FOOTER=======FOOTER=========FOOTER===============FOOTER*/
 .podval {
@@ -715,32 +692,14 @@ padding:0 50px;
     font-size: 18px;
   }
 
-  .ofice__text {
-    font-size: 12px;
+  .content__inner {
+    display: flex;
+    flex-direction: column;
   }
 
-  .driving__text {
-    margin: 50px 83px 0 0;
-    font-size: 12px;
-  }
-
-  .description p, .description_2 p {
-    font-size: 13px;
-    width: 100%;
-  }
-
-  .description_2 p {
-    top: 400px;
-  }
-
-  .photo1,.photo2 {
-    width: 100%;
-  }
-
-  .photo2 {
-    top: 150px;
-    right: 0;
-  }
+ .condition__blog h4,.condition__blog p{
+   font-size: 15px;
+ }
 
   .podval {
     padding: 0 20px;
