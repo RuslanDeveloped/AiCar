@@ -172,7 +172,7 @@ body {
 
 .condition__blog img {
   position: absolute;
-  top: 25%;
+  top: 30px;
   left: 0;
   z-index: 11;
 }
@@ -194,6 +194,7 @@ body {
   font-weight: 300;
 }
 
+
 /*=========================================================================================================*/
 
 .dogovor {
@@ -207,6 +208,105 @@ body {
   text-align: center;
   font-size: 30px;
   font-weight: 300;
+}
+
+/*===============================================================================*/
+
+.group__5 {
+  background: #fff;
+}
+
+.contact {
+  padding: 65px;
+  background-color: #2F2F2F;
+}
+.form {
+  margin: 0 320px;
+  margin-bottom: 49px;
+  padding: 30px;
+  border-radius: 20px;
+  background-color: #2F2F2F;
+}
+
+.form h3 {
+  text-align: center;
+  font-size: 25px;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 300;
+}
+
+
+.input {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.input input {
+  width: 326px;
+  border: 1px solid #061e37;
+  }
+
+input {
+  box-sizing: border-box;
+  background-color: #fafafa;
+  font-family: 'Raleway', sans-serif;
+  font-size: 25px;
+  line-height: 32px;
+  font-weight: 300;
+  color: #061e37;
+  border: none;
+  padding: 10px 20px;;
+  margin-bottom: 24px;
+}
+
+.textarea {
+  box-sizing: border-box;
+  background-color: #fafafa;
+  font-family: 'Raleway', sans-serif;
+  font-size: 25px;
+  font-weight: 300;
+  line-height: normal;
+  resize: none;
+  width: 100%;
+  height: 150px;
+  padding: 19px 244px 15px 30px;
+}
+
+.contact__btn {
+  display: flex;
+  align-items:
+}
+
+.contact__btn div {
+  margin-right: auto;
+}
+
+.contact__btn a {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid #1de9b6;
+  padding: 12px 37px;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 5px;
+  background-color: #1de9b6;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.buttonchik {
+  font-size: 20px;
+  text-transform: uppercase;
+
+  padding: 18px 88px 10px 88px;
+  background-color: #D9D9D9;
+  border-radius: 8px;
+  border: none;
+  margin-top: 28px;
+  margin-bottom: 30px;
 }
 
 /*====FOOTER========FOOTER=========FOOTER===========FOOTER======FOOTER==========FOOTER=======FOOTER=========FOOTER===============FOOTER*/

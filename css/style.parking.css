@@ -154,17 +154,6 @@ body {
   position: relative;
 }
 
-.group__2:before  {
-  background: url("GROUPS/bg 3.png") center no-repeat;
-  position: absolute;
-  top: 985px;
-  content:"";
-  width: 1478px;
-  right: 0;
-  height: 680px;
-  z-index: -9;
-}
-
 .head__text {
   padding: 26px 0 15px 0;
 
@@ -244,9 +233,11 @@ body {
 
 .service__text {
   font-size: 20px;
-  font-weight: 300;
+  font-weight: 400;
 
-  color: #2F2F2F;
+  color: #fff;
+
+  text-align: center;
 
   padding-top: 15px;
   padding-bottom: 48px;
@@ -254,9 +245,10 @@ body {
 
 .service__text.rec{
   font-size: 20px;
-  font-weight: 300;
+  font-weight: 400;
 
-  color: #2F2F2F;
+  color: #fff;
+  text-align: inherit;
 
   padding-top: 15px;
   padding-bottom: 24px;
@@ -632,87 +624,6 @@ input {
 }
 
 
-@media (max-width:1230px) {
-  .container {
-    width: 100%;
-  }
-
-  .header__logo img {
-    position: absolute;
-    top: -34px;
-    right: 0;
-    z-index: 1;
- }
-
-  .header_menu {
-    padding: 0 50px;
-  }
-
-  .number {
-    font-size: 15px;
-  }
-
-  .nav {
-    font-size: 15px;
-  }
-
-  .ourcar {
-    padding: 10px 25px 50px 25px;
-    display: flex;
-    justify-content: space-evenly;
-  }
-
-  .arenda__car img {
-    width: 85%
-  }
-
-  .car__content {
-    margin-top: 50px;
-    width: 40%;
-  }
-
-  .arenda__inner {
-    font-size: 9px;
-    font-weight: 300;
-  }
-
-  .content__inner {
-    padding: 80px 0 0;
-  }
-
-  .service__inner img {
-    width: 75%;
-  }
-
-  .service__text {
-    padding-top: 33px;
-  }
-
-  .border2 {
-    position: absolute;
-    right: 76px;
-    z-index: 1;
-  }
-
-  .input {
-    display: flex;
-  }
-
-  .input input {
-    padding: 17px 0;
-  }
-
-  .send {
-    padding: 17px 10px;
-  }
-
-  .text {
-  padding: 60px 50px 3px 50px;
-  font-size: 15px;
-  }
-}
-
-
 @media (max-width:1300px) {
   .container {
     width: 100%;
@@ -797,6 +708,88 @@ input {
     width: 100%;
   }
 }
+
+
+@media (max-width:1230px) {
+  .container {
+    width: 100%;
+  }
+
+  .header__logo img {
+    position: absolute;
+    top: -34px;
+    right: 0;
+    z-index: 1;
+ }
+
+  .header_menu {
+    padding: 0 50px;
+  }
+
+  .number {
+    font-size: 15px;
+  }
+
+  .nav {
+    font-size: 15px;
+  }
+
+  .ourcar {
+    padding: 10px 25px 50px 25px;
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .arenda__car img {
+    width: 85%
+  }
+
+  .car__content {
+    margin-top: 50px;
+    width: 40%;
+  }
+
+  .arenda__inner {
+    font-size: 9px;
+    font-weight: 300;
+  }
+
+  .content__inner {
+    padding: 80px 0 0;
+  }
+
+  .service__inner img {
+    width: 75%;
+  }
+
+  .service__text {
+    padding-top: 33px;
+  }
+
+  .border2 {
+    position: absolute;
+    right: 76px;
+    z-index: 1;
+  }
+
+  .input {
+    display: flex;
+  }
+
+  .input input {
+    padding: 17px 0;
+  }
+
+  .send {
+    padding: 17px 10px;
+  }
+
+  .text {
+  padding: 60px 50px 3px 50px;
+  font-size: 15px;
+  }
+}
+
 
 @media (max-width:1050px) {
   .container {
@@ -1333,7 +1326,7 @@ input {
   }
 }
 
-@media (max-width:380px) {
+@media (max-width:450px) {
   .container {
     width: 100%;
   }
@@ -1370,6 +1363,86 @@ input {
 
   .arenda {
     padding: 14px 50px;
+  }
+
+  .arenda__inner {
+    font-size: 15px;
+  }
+
+  .arenda__car {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .arenda__car:first-child {
+    margin-bottom: 20px;
+}
+
+  .button {
+    padding: 14px 4px;
+    font-size: 15px;
+  }
+
+  .footer__flex {
+    margin: 0;
+  }
+
+  .podval__contact {
+    padding: 24px 40px 20px;
+    width: 100%;
+  }
+
+  .textarea {
+    padding: 10px 0 0;
+  }
+
+  .input input {
+    padding: 10px 0;
+    width: 100%;
+  }
+}
+
+@media (max-width:380px) {
+  .container {
+    width: 100%;
+  }
+
+  .number {
+    display: none;
+  }
+
+  .group {
+    width: 100%;
+    background: url(GROUPS/adap.png) center no-repeat;
+    background-size: cover;
+  }
+
+  .intro__text {
+    padding-left: 20px;
+  }
+
+  .uptext {
+    font-size: 25px;
+  }
+
+  .downtext {
+    font-size: 18px;
+  }
+
+  .downtext br {
+    display: none;
+  }
+
+  .ourcar {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+
+  .arenda {
+    padding: 14px 45px;
   }
 
   .arenda__inner {

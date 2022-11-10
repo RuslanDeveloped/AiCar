@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="css/style.parking.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;500;700;800;900&display=swap" rel="stylesheet">
     <title>AirCar</title>
   </head>
@@ -18,10 +19,9 @@
           </div>
           <nav class="nav">
             <a class="nav_link" href="index.html">главная</a>
-            <a class="nav_link" href="we.html">о нас</a>
             <a class="nav_link" href="parking.html">автопарк</a>
             <a class="nav_link" href="contract.html">условие и договор</a>
-            <a class="nav_link" href="contact.html">контакты</a>
+            <a class="nav_link" id="contact">контакты</a>
           </nav>
           <a class="number" href="#">8(708) 733 78 85</a>
         </div>
@@ -33,7 +33,7 @@
         <div class="intro">
           <div class="intro__text">
             <div class="uptext">Прокат автомобилей в Актау</div>
-            <div class="downtext">Сервис проката автомобилей и услуг водителя</div>
+            <div class="downtext">Забронируйте через менеджера подходящий <br>автомобиль</div>
             <div class="btn"><a class="arenda" href="https://wa.me/77476067669">Арендовать</a>
                              <a class="arenda" href="https://wa.me/77476067669">Обратный звонок</a>
              </div>
@@ -43,7 +43,6 @@
     </div>
 
     <div class="GROUP__2">
-      <div class="group__2"></div>
       <div class="container">
         <div class="head__text">НАШИ АВТО</div>
         <img src="img/border/border.png" alt="">
@@ -146,7 +145,7 @@
         <img src="img/border/border.png" alt=""><!--полоска-->
                     <div class="service">
                       <div class="service__inner"><img src="img/service/1.png" alt=""><div class="service__text">Прокат автомобиля</div></div>
-                      <div class="service__inner"><img src="img/service/2.png" alt=""><div class="service__text rec">Прокат автомобиля и услуги водителя</div></div>
+                      <div class="service__inner"><img src="img/service/2.png" alt=""><div class="service__text rec">Услуги водителя</div></div>
                       <div class="service__inner"><img src="img/service/3.png" alt=""><div class="service__text">Трезвый водитель</div></div>
                       <div class="service__inner"><img src="img/service/4.png" alt=""><div class="service__text">Свадебный кортеж</div></div>
                     </div>
@@ -205,36 +204,33 @@
           <div class="podval__inner"><p>Публичная оферта</p>
                                      <p>Политика конфиденциальности</p>
                                      <p>Все права защищены</p>
-
           </div>
         </div>
 
-        <div class="podval__contact">
-          <form class="footer__form" action="#" method="post" enctype="multipart/form-data">
-            <h4>Оставьте заявку</h4>
-            <input type="text" name="" value="">
-            <input type="text" name="" value="">
-            <button class="butn__foot" type="button" name="button">отправить</button>
-          </form>
-        </div>
 
         <div class="adress"><h4>Адрес</h4>
                     <a href="#">г.Актау, БЦ "Капитал"
                             <br>Микрорайон 12, 79,</a>
         </div>
-        <div class="contacts">
-          <h4>Контакты</h4>
-          <p><img class="phone" src="img/phone.png" alt=""> 8 (705) 818 25 65</p>
-          <p><img class="letter" src="img/letter.png" alt="">adamant.rc@gmail.com</p>
-          <div class="img">
-            <img src="img/footer/1.png" alt="">
-            <img src="img/footer/2.png" alt="">
-            <img src="img/footer/3.png" alt="">
-            <img src="img/footer/4.png" alt="">
-          </div>
-        </div>
+
+          <div class="contacts">
+            <h4>Контакты</h4>
+              <p><img class="phone" src="img/phone.png" alt=""> 8 (705) 818 25 65</p>
+              <p><img class="letter" src="img/letter.png" alt="">adamant.rc@gmail.com</p>
+              <div class="img">
+                <img src="img/footer/1.png" alt="">
+                <img src="img/footer/2.png" alt="">
+                <img src="img/footer/3.png" alt="">
+                <img src="img/footer/4.png" alt="">
+              </div>
+            </div>
         </div>
       </div>
     </footer>
+
+
+    <script src="slick/slick.min.js"></script>
+    <script src="js/script.js"></script>
+
   </body>
 </html>
