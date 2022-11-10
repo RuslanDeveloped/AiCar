@@ -68,6 +68,10 @@ body {
   color: #333;
 }
 
+#contact {
+  cursor:pointer;
+}
+
 .number {
   text-decoration: none;
   text-transform: uppercase;
