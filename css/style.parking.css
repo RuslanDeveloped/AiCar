@@ -64,6 +64,10 @@ body {
   transition: 0.2s linear;
 }
 
+#contact {
+  cursor:pointer;
+}
+
 .nav_link:hover {
   color: #333;
 }
