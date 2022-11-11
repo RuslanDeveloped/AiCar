@@ -223,7 +223,7 @@ body {
 
 .content {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 
 .content__inner {
@@ -248,7 +248,7 @@ body {
 }
 
 .car__content {
-  margin-left: 65px;
+  margin-left: 0px;
 }
 /*==============================================================================GROUP__3*/
 
@@ -670,16 +670,8 @@ padding:0 50px;
     font-weight: 300;
   }
 
-  .border2 {
-    right: 0;
-}
-
   .content__inner {
     padding: 80px 0 0;
-  }
-
-  .service {
-    padding-left: 60px;
   }
 
   .service__inner img {
@@ -702,7 +694,7 @@ padding:0 50px;
 
   .input input {
     padding: 17px 0;
-    width: 100%;
+    width: 49%;
   }
 
   .send {
@@ -710,15 +702,24 @@ padding:0 50px;
   }
 
   .text {
-    padding: 73px 50px 35px 50px;
+    padding: 73px 0 35px 0;
     font-size: 15px;
   }
+
+  .textarea {
+    width: 100%;
+    padding: 19px 0 0 10px;
+  }
+
+  .footer__flex {
+    margin-left: 10px;
+  }
 }
+
 
 @media (max-width:1300px) {
   .container {
     width: 100%;
-    max-width: 1200px;
   }
 
   .header__logo img {
@@ -751,8 +752,7 @@ padding:0 50px;
   }
 
   .car__content {
-    margin-top: 50px;
-    width: 40%;
+    display: none;
   }
 
   .arenda__inner {
@@ -774,7 +774,7 @@ padding:0 50px;
 
   .border2 {
     position: absolute;
-    right: 76px;
+    right: 0;
     z-index: 1;
   }
 
@@ -795,12 +795,17 @@ padding:0 50px;
     padding: 73px 0 35px 0;
     font-size: 15px;
   }
+
+  .textarea {
+    width: 100%;
+  }
 }
+
 
 @media (max-width:1230px) {
   .container {
     width: 100%;
-    max-width: 1150px;
+    max-width: 1180px;
   }
 
   .header__logo img {
@@ -842,6 +847,11 @@ padding:0 50px;
     font-weight: 300;
   }
 
+  .GRPOUP__111:before {
+    height: 540px;
+    z-index: -9;
+}
+
   .content__inner {
     padding: 80px 0 0;
   }
@@ -860,18 +870,12 @@ padding:0 50px;
     z-index: 1;
   }
 
-  .text {
-  padding: 60px 50px 3px 50px;
-  font-size: 15px;
-  }
-
   .input {
     display: flex;
   }
 
   .input input {
     padding: 17px 0;
-    width: 49%;
   }
 
   .send {
@@ -879,25 +883,15 @@ padding:0 50px;
   }
 
   .text {
-  padding: 50px 50px 3px 50px;
+  padding: 60px 50px 3px 50px;
   font-size: 15px;
   }
-
-  .text p {
-    margin: 0;
-  }
-
-  .form {
-    margin: 0 125px 50px 125px;
-  }
-
-
 }
+
 
 @media (max-width:1050px) {
   .container {
     width: 100%;
-    max-width: 900px;
   }
 
   .header__logo img {
@@ -917,13 +911,6 @@ padding:0 50px;
 
   .nav {
     font-size: 12px;
-  }
-
-  .ourcar {
-    padding: 10px 0 50px 0;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
   }
 
   .car__content {
@@ -970,16 +957,22 @@ padding:0 50px;
   padding: 50px 50px 3px 50px;
   font-size: 10px;
   }
+
+  .form {
+    margin: 0 100px 50px 100px;
+  }
 }
+
 
 @media (max-width:992px) {
   .container {
     width: 100%;
-    max-width: 900px;
   }
 
-  .GROUP {
-    height: 650px;
+  .group__3 {
+    width: 100%;
+    height: 1610px;
+    background-size: cover;
   }
 
   .intro__text {
@@ -1065,8 +1058,18 @@ padding:0 50px;
     align-items: baseline;
   }
 
+  .GRPOUP__4 {
+    background: url("GROUPS/bg 3.png") center no-repeat;
+    background-size: cover;
+  }
+
+  .content img {
+    display: none;
+  }
+
   .car__content {
     margin-top: 50px;
+    margin-left: 0;
     width: 40%;
   }
 
@@ -1076,19 +1079,21 @@ padding:0 50px;
 
   .service {
     display: flex;
-    flex-wrap: wrap;
-    margin: 20px 0 0 100px;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px 0 0 100px;
   }
 
   .service__inner {
     width: 50%;
-    margin-bottom: 27px;
     margin-right: 0;
+    margin-bottom: 60px;
   }
 
   .service__text,.service__text.rec {
     padding-top: 0;
-    font-size: 30px;
+    font-size: 35px;
+    font-weight: 400;
   }
 
   .partner {
@@ -1097,9 +1102,8 @@ padding:0 50px;
   }
 
   .partner1 img,.partner2 img {
-    width: 50%;
-    margin-bottom: 50px;
-    box-shadow: 0 10px 20px #646464;
+    width: 25%;
+    margin-bottom: 5px;
   }
 
   .partner2,.partner1 {
@@ -1136,7 +1140,28 @@ padding:0 50px;
   padding: 50px 50px 3px 50px;
   font-size: 15px;
   }
+}
 
+@media (max-width:890px) {
+  .container {
+    width: 100%;
+  }
+
+  .content {
+    justify-content: center;
+  }
+
+  .car__content {
+    display: none;
+  }
+
+  .text_slide {
+    padding: 37px 122px 285px 135px;
+  }
+
+  .service__text {
+    font-size: 27px;
+  }
 
 }
 
@@ -1213,7 +1238,6 @@ padding:0 50px;
 
   .input {
     display: flex;
-    flex-direction: column;
   }
 
   .input input {
@@ -1227,5 +1251,392 @@ padding:0 50px;
   .text {
   padding: 50px 50px 3px 50px;
   font-size: 10px;
+  }
+}
+
+@media (max-width:750px) {
+  .container {
+    width: 100%;
+  }
+
+  .header__logo img {
+    position: absolute;
+    top: -34px;
+    right: 0;
+    z-index: 1;
+ }
+
+  .header_menu {
+    padding: 0 50px;
+  }
+
+  .number {
+    font-size: 12px;
+  }
+
+  .nav {
+    font-size: 12px;
+  }
+
+  .ourcar {
+    padding: 10px 0 50px 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .arenda__car {
+    margin-bottom: 10px;
+  }
+
+  .car__content {
+    margin-top: 50px;
+    width: 40%;
+    margin-left: 0;
+  }
+
+  .arenda__inner {
+    font-size: 15px;
+    font-weight: 300;
+  }
+
+  .text__content {
+    font-size: 25px;
+  }
+
+  .content__inner {
+    padding: 80px 0 0;
+  }
+
+  .content__inner img{
+    width: 50%;
+  }
+
+  .service {
+    margin: 50px 0 0;
+  }
+
+  .service__inner img {
+    width: 100%;
+  }
+
+  .service__text {
+    padding-top: 10px;
+    font-size: 25px;
+    padding-bottom: 30px;
+  }
+
+
+  .button {
+     padding: 14px 28px;
+   }
+
+   .partner1 img,.partner2 img {
+     width: 50%;
+     margin-bottom: 50px;
+     box-shadow: 0 10px 20px #646464;
+   }
+
+  .border2 {
+    position: absolute;
+    right: 0;
+    z-index: 1;
+  }
+
+  .input {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .input input {
+    padding: 17px 0;
+    width: 100%;
+  }
+
+  .send {
+    padding: 17px 10px;
+    margin: 10px 0 0;
+  }
+
+  .contact {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: flex-start
+}
+
+  .text {
+    padding: 50px 50px 3px 50px;
+    font-size: 13px;
+  }
+
+  .form {
+    margin: 0;
+    margin-bottom: 25px;
+  }
+
+  .textarea {
+    height: 100px;
+    width: 100%;
+    font-size: 25x;
+    padding: 10px 0 0 5px;
+}
+
+  .footer__flex {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin: 0 0 0 30px;
+}
+
+  .podval__contact {
+    padding: 15px 35px 20px;
+    width: 50%;
+  }
+
+  .podval__contact input {
+    width: 300px;
+    height: 60px;
+    margin: 15px 0 18px 0;
+}
+
+  .adress {
+    margin-top: 25px;
+    margin-left: 50px;
+  }
+
+  .contacts {
+    margin-top: 25px;
+    position: relative;
+    padding: 0 50px;
+}
+
+  .butn__foot {
+    padding: 15px 15px;
+    color: #fff;
+    cursor: pointer;
+    border: 1px solid #2D2D2D;
+    border-radius: 8px;
+    width: 300px;
+    font-size: 15px;
+    font-weight: 300;
+    text-transform: uppercase;
+    background-color: #2D2D2D;
+  }
+
+}
+
+@media (max-width:700px) {
+  .container {
+    width: 100%;
+  }
+
+  .GROUP {
+    width: 100%;
+    background: url(GROUPS/adap.png) center no-repeat;
+    background-size: cover;
+  }
+
+  .number {
+    display: none;
+  }
+
+  .content {
+    justify-content: center;
+  }
+
+  .car__content {
+    display: none;
+  }
+
+  .podval__contact {
+    width: 65%;
+  }
+}
+
+@media (max-width:560px) {
+  .container {
+    width: 100%;
+  }
+
+  .podval__contact {
+    width: 80%;
+  }
+
+  .car__content {
+    display: none;
+  }
+
+  .text_slide {
+    padding: 50px;
+  }
+
+  .GROUP__3 {
+    height: 300px;
+  }
+
+  .content__inner img {
+    display: none;
+  }
+
+  .text__content {
+    margin: 0
+  }
+
+}
+
+@media (max-width:450px) {
+  .container {
+    width: 100%;
+  }
+
+  .number {
+    display: none;
+  }
+
+  .group {
+    width: 100%;
+    background: url(GROUPS/adap.png) center no-repeat;
+    background-size: cover;
+  }
+
+  .intro__text {
+    padding-left: 20px;
+  }
+
+  .uptext {
+    font-size: 25px;
+  }
+
+  .downtext {
+    font-size: 18px;
+  }
+
+  .ourcar {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+
+  .arenda {
+    padding: 14px 50px;
+  }
+
+  .arenda__inner {
+    font-size: 15px;
+  }
+
+  .arenda__car {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .arenda__car:first-child {
+    margin-bottom: 20px;
+}
+
+  .button {
+    padding: 14px 4px;
+    font-size: 15px;
+  }
+
+  .footer__flex {
+    margin: 0;
+  }
+
+  .podval__contact {
+    padding: 24px 40px 20px;
+    width: 100%;
+  }
+
+  .textarea {
+    padding: 10px 0 0;
+  }
+
+  .input input {
+    padding: 10px 0;
+    width: 100%;
+  }
+}
+
+@media (max-width:380px) {
+  .container {
+    width: 100%;
+  }
+
+  .number {
+    display: none;
+  }
+
+  .group {
+    width: 100%;
+    background: url(GROUPS/adap.png) center no-repeat;
+    background-size: cover;
+  }
+
+  .intro__text {
+    padding-left: 20px;
+  }
+
+  .uptext {
+    font-size: 25px;
+  }
+
+  .downtext {
+    font-size: 18px;
+  }
+
+  .downtext br {
+    display: none;
+  }
+
+  .ourcar {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+
+  .arenda {
+    padding: 14px 45px;
+  }
+
+  .arenda__inner {
+    font-size: 15px;
+  }
+
+  .arenda__car {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .arenda__car:first-child {
+    margin-bottom: 20px;
+}
+
+  .button {
+    padding: 14px 4px;
+    font-size: 15px;
+  }
+
+  .footer__flex {
+    margin: 0;
+  }
+
+  .podval__contact {
+    padding: 24px 40px 20px;
+    width: 100%;
+  }
+
+  .textarea {
+    padding: 10px 0 0;
+  }
+
+  .input input {
+    padding: 10px 0;
+    width: 100%;
   }
 }
